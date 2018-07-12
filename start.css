@@ -1,0 +1,65 @@
+.background{
+    background-image:url("废墟.jpg");
+    width:1024px;
+    height:582px;
+    padding-top:1px;
+}
+.aside_1_1 {
+    width: 480px;
+    height:150px;
+    border:1px solid lightyellow;
+    margin-left:284px;
+    margin-top:290px;
+    opacity:0.6;
+    background-color:black;
+    text-align: center;
+    vertical-align: middle;
+    font-size:14px;
+    color:#ffd700;
+    display:table;
+}
+.asideText_1_1{
+    vertical-align: middle;
+    display:table-cell;
+}
+.aside_1_2 {
+    width: 480px;
+    height:150px;
+    border:1px solid lightyellow;
+    margin-left:284px;
+    margin-top:290px;
+    opacity:0.6;
+    background-color:black;
+    text-align: center;
+    vertical-align: middle;
+    font-size:14px;
+    color:#ffd700;
+    display:none;
+}
+.asideText_1_2{
+    vertical-align: middle;
+    display:none;
+    margin-top:30px;
+}
+.aside_1_2_button1{
+    border:1px solid lightyellow;
+    display:none;
+    cursor:pointer;
+    line-height:35px;
+    font-size:14px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.aside_1_2_button2{
+    border:1px solid lightyellow;
+    display:none;
+    margin-left:40px;
+    cursor:pointer;
+    line-height:35px;
+    font-size:14px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.aside_1_2_buttons{
+    margin-top:40px;
+}
