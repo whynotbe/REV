@@ -28,6 +28,6 @@ function  changeLog(){
     aside02.innerHTML = "你选择";
     aside03.innerHTML = "再休息一会";
     aside04.innerHTML = "出去看看";
-    aside03.style.display = "inline";
-    aside04.style.display = "inline";
+    aside03.style.display = "inline-block";
+    aside04.style.display = "inline-block";
 }
