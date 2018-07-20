@@ -50,7 +50,7 @@ function choose1_1(){
     aside03.innerHTML = "fight back";
     aside04.innerHTML = "run!";
     aside03.onclick = function(){
-        startBattle1_1();
+        startBattle();
     }
     aside04.onclick=function () {
         changelog02();
@@ -62,7 +62,7 @@ function choose1_2(){
     aside03.innerHTML = "fight back";
     aside04.innerHTML = "run!";
     aside03.onclick = function(){
-        startBattle1_1();
+        startBattle();
     }
      aside04.onclick=function () {
         changelog02();
@@ -76,12 +76,13 @@ function changelog02(){
         alert("you have eascaped");
         playerAtr.speed +=0.5;
     }else{
-            startBattle1_1();
+            startBattle();
 
     }
 
 }
 
-function startBattle1_1(){
+function startBattle(){
+    loadBattle();
     alert("you are dead");
 }
